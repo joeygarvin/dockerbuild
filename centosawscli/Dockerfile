@@ -1,6 +1,6 @@
 FROM centos:7
 
-MAINTAINER centos
+MAINTAINER centos7
 
 RUN yum -y install epel-release &&\
     yum -y install python-pip  
