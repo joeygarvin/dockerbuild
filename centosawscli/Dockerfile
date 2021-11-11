@@ -6,4 +6,4 @@ RUN yum -y install epel-release &&\
     yum -y install python-pip  
 
 RUN pip install awscli &&\
-    echo "This is Joe" > /root/Joe
+    echo "This is Joe again" > /root/Joe
